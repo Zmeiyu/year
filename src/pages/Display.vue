@@ -1,7 +1,6 @@
 <template>
   <div class="box">
     <div id="myCharts" ref="myCharts"></div>
-
   </div>
 
 </template>
