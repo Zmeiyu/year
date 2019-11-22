@@ -39,7 +39,29 @@
             layout: 'none',
             focusNodeAdjacency: 'allEdges',
             data:this.data,
-            links: this.link
+            links: this.link,
+            lineStyle: {
+              normal: {
+                curveness: 0,
+                opacity:0.5,
+                color: '#5CA1DF'
+              }
+            },
+            itemStyle: {
+              normal: {
+                borderWidth: 0,
+                borderColor: '#fff',
+                opacity:1
+              }
+            },
+            label:{
+              normal: {
+                align: 'center',
+                padding: [0, 0, 0, -90],
+                fontSize:'14',
+                color: '#5CA1DF'
+              }
+            },
           }
         };
         myCharts.setOption(option);
@@ -56,7 +78,7 @@
   }
   #myCharts{
     width: 80%;
-    height: 500px;
+    height: 1000px;
   }
 
 </style>
