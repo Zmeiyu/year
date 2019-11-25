@@ -34,20 +34,18 @@
       caretEcharts(){
         const  myCharts = this.$echarts.init(this.$refs.myCharts);
         let option = {
-          //tooltip: {},
-          //animationDurationUpdate: 1500,
-          //animationEasingUpdate: 'quinticInOut',
           series: {
             type: 'graph',
             layout: 'none',
-            symbolSize: 17, //图形的大小（示例中的圆的大小）
+            symbolSize: 30, //图形的大小（示例中的圆的大小）
             roam: true, //鼠标缩放及平移
             focusNodeAdjacency: true, //是否在鼠标移到节点上的时候突出显示节点以及节点的边和邻接节点
             label: {
               normal: {
                 show: true, //控制非高亮时节点名称是否显示
                 position: 'top',
-                fontSize: 20
+                fontSize: 20,
+                color:"#56F3FF"
               }
             },
             data:this.data,
@@ -60,6 +58,31 @@
                 fontSize: 18,
               },
             }, //悬浮时的提示框，不设置时是随鼠标移动
+            lineStyle: {
+              normal: {
+                show: true,
+                color: {
+                  type: 'linear',
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [{
+                    offset: 0,
+                    color: '#56F3FF' // 0% 处的颜色
+                  }, {
+                    offset: 1,
+                    color: '#56F3FF' // 100% 处的颜色
+                  }],
+                  globalCoord: false // 缺省为 false
+                }
+              },
+              emphasis: {
+                color: '#56F3FF',
+                width: 3,
+                type: 'solid', //实线
+              }
+            },
           }
         };
         myCharts.setOption(option);
