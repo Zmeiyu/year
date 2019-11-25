@@ -3,7 +3,8 @@
     "data": [
       {
         "name": "输入",
-        "symbolSize": 40
+        "symbol": "image://../../static/image/center.png",
+        "symbolSize": 150
       }, {
         "name": "贷前",
         "symbolSize": 20,

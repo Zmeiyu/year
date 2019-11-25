@@ -1,5 +1,6 @@
 <template>
   <div class="main">
+    <img src="../../static/image/head.png" alt="" />
     <div id="myCharts" ref="myCharts" class="charts"></div>
   </div>
 </template>
@@ -93,11 +94,17 @@
 
 <style scoped>
 .main{
-  text-align: center;
+  background-image: url("../../static/image/bg@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1064px;
 }
 .charts{
   width: 80%;
-  height: 900px;
+  height: 80%;
   margin: 0 auto;
+}
+img{
+  width: 100%;
 }
 </style>
