@@ -4,8 +4,12 @@
       {
         "name": "输入",
         "symbol": "image://../../static/image/center.png",
-        "symbolSize": 150
-      }, {
+        "symbolSize": 150,
+        "x": "745",
+        "y": "550",
+        "symbolKeepAspect": true,
+        "fixed":true
+      },{
         "name": "贷前",
         "symbolSize": 20,
         "category": "贷前"
@@ -381,9 +385,187 @@
         "name": "重大涉诉信息",
         "symbolSize": 30,
         "category": "贷后预警规则"
-      }],
+      },
+      {
+        "name": "工商司法",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "法定代表人变更次数",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "24",
+        "symbolSize": 20,
+        "category": "法定代表人变更次数"
+      },{
+        "name": "法定代表人持股比例",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "持股比例",
+        "symbolSize": 20,
+        "category": "法定代表人持股比例"
+      },{
+        "name": "民商事裁判文书中作为被告或被执行人",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "民商事审判流程中作为被告或被执行人",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "失信人",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "被执行人",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "限制出入境名单",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "限制高消费名单",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "营业状态",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "罪犯及嫌疑人名单表",
+        "symbolSize": 20,
+        "category": "工商司法"
+      },{
+        "name": "行内限制行业规则",
+        "symbolSize": 20,
+        "category": "输入"
+      },{
+        "name": "北京银行禁止行业",
+        "symbolSize": 20,
+        "category": "行内限制行业规则"
+      },
+      {
+        "name": "量化申请",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "管理费用/营业收入",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "销售额近12个月变异系数",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "最近三期申报为0的次数",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "下游个数改变",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "当前年上游前8大供应商采购额占比",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "法人年龄",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "近12个月纳税额增长率",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "近12个月违法违章次数",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "近12个月滞纳金次数",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "近3个月销售收入增长率",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "流动比率",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "流动负债合计/营业收入",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },{
+        "name": "管理费用/资产合计",
+        "symbolSize": 20,
+        "category": "量化申请"
+      },
+      {
+        "name": "量化行为",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "累计折旧/所有者权利",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "上游前10大供应商重合个数",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": " 下游个数改变",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "下游前10大客户重合个数",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "销售额近3个月变异系数",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "行业*毛利率",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "近6月滞纳金次数",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "净利润/所有者权益",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "当前年上游前6大供应商采购额占比",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "近3个月纳税额增长率（所得税）",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "近3个月全部销售额年化增长率（动态）",
+        "symbolSize": 20,
+        "category": "量化行为"
+      },{
+        "name": "近6个月征收企业所得税年化增长率（动态）",
+        "symbolSize": 20,
+        "category": "量化行为"
+      }
+    ],
     "links": [
       {
+        "source": "输入",
+        "target": "行内限制行业规则"
+      },{
+        "source": "行内限制行业规则",
+        "target": "北京银行禁止行业"
+      },{
         "source": "输入",
         "target": "贷后预警规则"
       }, {
@@ -671,12 +853,147 @@
       }, {
         "source": "贷后预警规则",
         "target": "重大涉诉信息"
-      }],
+      },
+      {
+        "source": "输入",
+        "target": "工商司法"
+      },{
+        "source": "工商司法",
+        "target": "法定代表人变更次数"
+      },{
+        "source": "法定代表人变更次数",
+        "target": "24"
+      },{
+        "source": "工商司法",
+        "target": "法定代表人持股比例"
+      },{
+        "source": "法定代表人持股比例",
+        "target": "持股比例"
+      },{
+        "source": "工商司法",
+        "target": "民商事裁判文书中作为被告或被执行人"
+      },{
+        "source": "工商司法",
+        "target": "民商事审判流程中作为被告或被执行人"
+      },{
+        "source": "工商司法",
+        "target": "失信人"
+      },{
+        "source": "工商司法",
+        "target": "被执行人"
+      },{
+        "source": "工商司法",
+        "target": "限制出入境名单"
+      },{
+        "source": "工商司法",
+        "target": "限制高消费名单"
+      },{
+        "source": "工商司法",
+        "target": "营业状态"
+      },{
+        "source": "工商司法",
+        "target": "罪犯及嫌疑人名单表"
+      },{
+      "source": "输入",
+      "target": "量化申请"
+      },{
+        "source": "量化申请",
+        "target": "管理费用/营业收入"
+      },{
+        "source": "量化申请",
+        "target": "销售额近12个月变异系数"
+      },{
+        "source": "量化申请",
+        "target": "最近三期申报为0的次数"
+      },{
+        "source": "量化申请",
+        "target": "下游个数改变"
+      },{
+        "source": "量化申请",
+        "target": "当前年上游前8大供应商采购额占比"
+      },{
+        "source": "量化申请",
+        "target": "法人年龄"
+      },{
+        "source": "量化申请",
+        "target": "近12个月纳税额增长率"
+      },{
+        "source": "量化申请",
+        "target": "近12个月违法违章次数"
+      },{
+        "source": "量化申请",
+        "target": "近12个月滞纳金次数"
+      },{
+        "source": "量化申请",
+        "target": "近3个月销售收入增长率"
+      },{
+        "source": "量化申请",
+        "target": "流动比率"
+      },{
+        "source": "量化申请",
+        "target": "流动负债合计/营业收入"
+      },{
+        "source": "量化申请",
+        "target": "管理费用/资产合计"
+      },{
+        "source": "输入",
+        "target": "量化行为"
+      },{
+        "source": "量化行为",
+        "target": "近6月滞纳金次数"
+      },{
+        "source": "量化行为",
+        "target": "净利润/所有者权益"
+      },{
+        "source": "量化行为",
+        "target": "累计折旧/所有者权利"
+      },{
+        "source": "量化行为",
+        "target": "当前年上游前6大供应商采购额占比"
+      },{
+        "source": "量化行为",
+        "target": "近3个月纳税额增长率（所得税）"
+      },{
+        "source": "量化行为",
+        "target": "近3个月全部销售额年化增长率（动态）"
+      },{
+        "source": "量化行为",
+        "target": "近6个月征收企业所得税年化增长率（动态）"
+      },{
+        "source": "量化行为",
+        "target": "累计折旧/所有者权益"
+      },{
+        "source": "量化行为",
+        "target": "上游前10大供应商重合个数"
+      },{
+        "source": "量化行为",
+        "target": " 下游个数改变"
+      },{
+        "source": "量化行为",
+        "target": "下游前10大客户重合个数"
+      },{
+        "source": "量化行为",
+        "target": "销售额近3个月变异系数"
+      },{
+        "source": "量化行为",
+        "target": "行业*毛利率"
+      }
+    ],
     "categories": [
       {
         "name": "贷后预警规则"
       }, {
         "name": "工商司法"
+      },  {
+        "name": "量化申请"
+      },  {
+        "name": "量化行为"
+      }, {
+        "name": "法定代表人变更次数"
+      }, {
+        "name": "法定代表人持股比例"
+      }, {
+        "name": "行内限制行业规则"
       }, {
         "name": "贷后"
       }, {

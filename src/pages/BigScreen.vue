@@ -57,11 +57,11 @@
           animationDuration: 3000,
           animationEasingUpdate: 'quinticInOut',
           series: [{
-            name: '三国演义',
+            name: '北京银行',
             type: 'graph',
             layout: 'force',
             force: {
-              repulsion: 300
+              repulsion: 250
             },
             data: this.data,
             links: this.links,
@@ -97,7 +97,8 @@
   background-image: url("../../static/image/bg@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 1064px;
+  height: 1080px;
+  width: 100%;
 }
 .charts{
   width: 80%;
