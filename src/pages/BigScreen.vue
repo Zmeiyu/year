@@ -66,7 +66,7 @@
             links: this.links,
             categories: this.categories,
             focusNodeAdjacency: true,
-            roam: false, // 是否可拖拽和滑轮滚动
+            roam: true, // 是否可拖拽和滑轮滚动
             label: {
               normal: {
                 show: true,
@@ -97,7 +97,7 @@
 }
 .charts{
   width: 80%;
-  height: 500px;
+  height: 900px;
   margin: 0 auto;
 }
 </style>
