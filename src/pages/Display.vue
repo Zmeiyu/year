@@ -14,19 +14,19 @@
 </template>
 
 <script>
-import echarts from "echarts";
 export default {
   name: "Display",
   data() {
     return {
       data: [],
-      link: []
+      link: [],
+      pointData:[]
     };
   },
   mounted() {
     this.getDataList();
-    this.pointerEcharts();
-
+    this.getRowData();
+    this.pointerEcharts()
     (function() {
       var w = window.innerWidth;
       var h = window.innerHeight;
@@ -47,8 +47,21 @@ export default {
           console.log(err);
         });
     },
+    getRowData(){
+      this.axios
+        .get("./../../static/json/fake-nebula.bin",{responseType:'arraybuffer'})
+        .then(res => {
+          console.log(res);
+          console.info(res.data);
+          this.pointData = new Float32Array(res.data);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    },
     caretEcharts() {
       const myCharts = this.$echarts.init(this.$refs.myCharts);
+      myCharts.hideLoading();
       let option = {
         series: {
           type: "graph",
@@ -107,119 +120,112 @@ export default {
       myCharts.setOption(option);
     },
     pointerEcharts() {
-      var dataURL = "data/asset/data/fake-nebula.bin";
-      var xhr = new XMLHttpRequest();
-      xhr.open("GET", dataURL, true);
-      xhr.responseType = "arraybuffer";
       const myChart = this.$echarts.init(this.$refs.myChart);
-
-     xhr.onload = function (e) {
-    
-    var rawData = new ArrayBuffer(this.response);
-
-    let option = {
-        backgroundColor: '#191919',
-        title: {
-            left: 'center',
-            text: echarts.format.addCommas(Math.round(rawData.length / 2)) + ' Points',
-            subtext: 'Fake data',
-            textStyle: {
-                color: '#eee'
-            },
-            subtextStyle: {
-                color: '#999'
-            }
+      let  option = {
+      backgroundColor: '#191919',
+      title: {
+        left: 'center',
+        text: '1,000,000 Points',
+        subtext: 'Data',
+        textStyle: {
+          color: '#eee'
         },
-        tooltip: {},
-        toolbox: {
-            right: 20,
-            iconStyle: {
-                borderColor: '#eee'
-            },
-            feature: {
-                dataZoom: {}
-            }
+        subtextStyle: {
+          color: '#999'
+        }
+      },
+      tooltip: {},
+      toolbox: {
+        right: 20,
+        iconStyle: {
+          borderColor: '#eee'
         },
-        grid: {
-            right: 70,
-            bottom: 70
+        feature: {
+          dataZoom: {}
+        }
+      },
+      grid: {
+        right: 70,
+        bottom: 70
+      },
+      xAxis: [{
+        scalse: false,
+        axisLabel: {
+          color: '#ccc',
+          fontSize: 16
         },
-        xAxis: [{
-            scalse: false,
-            axisLabel: {
-                color: '#ccc',
-                fontSize: 16
-            },
-            splitLine: {
-                lineStyle: {
-                    color: '#555'
-                }
-            }
-        }],
-        yAxis: [{
-            scalse: false,
-            axisLabel: {
-                color: '#ccc',
-                fontSize: 16
-            },
-            splitLine: {
-                lineStyle: {
-                    color: '#555'
-                }
-            }
-        }],
-        dataZoom: [{
-            type: 'inside'
-        }, {
-            type: 'slider',
-            showDataShadow: false,
-            handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
-            handleSize: '80%',
-            handleStyle: {
-                color: '#999',
-                shadowBlur: 3,
-                shadowColor: 'rgba(0, 0, 0, 0.6)',
-                shadowOffsetX: 2,
-                shadowOffsetY: 2
-            }
-        }, {
-            type: 'inside',
-            orient: 'vertical'
-        }, {
-            type: 'slider',
-            orient: 'vertical',
-            showDataShadow: false,
-            handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
-            handleSize: '80%',
-            handleStyle: {
-                color: '#999',
-                shadowBlur: 3,
-                shadowColor: 'rgba(0, 0, 0, 0.6)',
-                shadowOffsetX: 2,
-                shadowOffsetY: 2
-            }
-        }],
-        animation: false,
-        series : [{
-            type: 'scatter',
-            data: rawData,
-            dimensions: ['x', 'y'],
-            symbolSize: 3,
-            itemStyle: {
-                color: '#128de3',
-                opacity: 0.4
-            },
-            blendMode: 'lighter',
-            large: true,
-            largeThreshold: 500
-        }]
+        splitLine: {
+          lineStyle: {
+            color: '#555'
+          }
+        }
+      }],
+      yAxis: [{
+        scalse: false,
+        axisLabel: {
+          color: '#ccc',
+          fontSize: 16
+        },
+        splitLine: {
+          lineStyle: {
+            color: '#555'
+          }
+        }
+      }],
+      dataZoom: [{
+        type: 'inside'
+      }, {
+        type: 'slider',
+        showDataShadow: false,
+        handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+        handleSize: '80%',
+        handleStyle: {
+          color: '#999',
+          shadowBlur: 3,
+          shadowColor: 'rgba(0, 0, 0, 0.6)',
+          shadowOffsetX: 2,
+          shadowOffsetY: 2
+        }
+      }, {
+        type: 'inside',
+        orient: 'vertical'
+      }, {
+        type: 'slider',
+        orient: 'vertical',
+        showDataShadow: false,
+        handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
+        handleSize: '80%',
+        handleStyle: {
+          color: '#999',
+          shadowBlur: 3,
+          shadowColor: 'rgba(0, 0, 0, 0.6)',
+          shadowOffsetX: 2,
+          shadowOffsetY: 2
+        }
+      }],
+      animation: false,
+      series : [{
+        type: 'scatter',
+        data: this.pointData,
+        dimensions: ['x', 'y'],
+        symbolSize: 3,
+        itemStyle: {
+          color: '#128de3',
+          opacity: 0.4
+        },
+        blendMode: 'lighter',
+        large: true,
+        largeThreshold: 500
+      }]
     };
-
     myChart.setOption(option);
-};
-
-xhr.send();
-
+    }
+  },
+  watch :{
+    pointData:{
+      handler(){
+        this.pointerEcharts()
+      }
     }
   }
 };
@@ -295,8 +301,8 @@ xhr.send();
 .right #myChart {
   width: 560px;
   height: 418px;
-  margin-left:36px;
-  margin-top: 34px; 
+  margin-left:33px;
+  margin-top: 34px;
   position: absolute;
   z-index: 999
 }
