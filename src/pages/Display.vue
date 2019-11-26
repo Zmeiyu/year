@@ -1,5 +1,7 @@
 <template>
   <div class="box">
+    <img src="../../static/image/head.png" alt="" />
+    <div class="title">存量客户信息</div>
     <div id="myCharts" ref="myCharts"></div>
   </div>
 
@@ -38,7 +40,7 @@
             type: 'graph',
             layout: 'none',
             symbolSize: 30, //图形的大小（示例中的圆的大小）
-            roam: true, //鼠标缩放及平移
+            // roam: true, //鼠标缩放及平移
             focusNodeAdjacency: true, //是否在鼠标移到节点上的时候突出显示节点以及节点的边和邻接节点
             label: {
               normal: {
@@ -99,13 +101,32 @@
   .box{
     width: 100%;
     height: 100%;
+    background: url("./../../static/image/bg@2x.png") no-repeat;
+    background-size: 100% 100%;
   }
   #myCharts{
-    width: 100%;
+    width: 80%;
     height: 1080px;
-    background: url("./../../static/image/bg@2x.png") no-repeat;
-    background-size: cover;
-
+    /*float: left;*/
+    /*display: inline-block;*/
+    /*margin-top: -40px;*/
+    /*margin-left: -120px;*/
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  .title{
+    font-size:25px;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-shadow:0px 2px 3px rgba(6,56,156,1);
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-60%,-50%);
   }
 
 </style>
