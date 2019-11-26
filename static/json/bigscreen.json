@@ -96,15 +96,15 @@
         "category": "三级及以下"
       },{
         "name": "贷后",
-        "x": "600",
-        "y": "355",
+        "x": "1000",
+        "y": "560",
         "fixed":true,
         "symbolSize": 30,
         "category": "一级菜单"
       }, {
         "name": "AHP",
-        "x": "400",
-        "y": "310",
+        "x": "1200",
+        "y": "480",
         "fixed":true,
         "symbolSize": 20,
         "category": "二级"
@@ -165,10 +165,16 @@
         "category": "一级菜单"
       }, {
         "name": "企业",
+        "x": "1350",
+        "y": "300",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
         "name": "他行欠息",
+        "x": "1550",
+        "y": "300",
+        "fixed":true,
         "symbolSize": 10,
         "category": "三级及以下"
       },{
@@ -185,6 +191,9 @@
         "category": "三级及以下"
       },{
         "name": "本行欠息",
+        "x": "1500",
+        "y": "220",
+        "fixed":true,
         "symbolSize": 10,
         "category": "三级及以下"
       },{
@@ -229,95 +238,60 @@
         "category": "二级"
       },{
         "name": "个人",
+        "x": "1300",
+        "y": "200",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
         "name": "他行欠息（个人）",
+        "x": "1200",
+        "y": "180",
+        "fixed":true,
         "symbolSize": 10,
         "category": "三级及以下"
       },{
         "name": "本行欠息（个人）",
+        "x": "1400",
+        "y": "170",
+        "fixed":true,
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": "当前逾期金额",
+        "name": "当前逾期金额180+",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": "180+",
+        "name": "当前逾期金额31-60",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": "31",
+        "name": "当前逾期金额61-90",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": "60",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": "61",
+        "name": "当前逾期金额0-30",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": "90",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": "91",
+        "name": "当前逾期金额（他行）180+",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": "180",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": "0",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": "30",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": "当前逾期金额（他行）",
+        "name": "当前逾期金额（他行）61-90",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": " 180+",
+        "name": "当前逾期金额（他行）0-30",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": " 31",
+        "name": "当前逾期金额（他行）91-180",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": " 60",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": " 61",
+        "name": "当前逾期金额（他行）31-60",
         "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": " 90",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": " 91",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": " 180",
-        "symbolSize": 5,
-        "category": "三级及以下"
-      },{
-        "name": " 0",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": " 30",
-        "symbolSize": 5,
         "category": "三级及以下"
       },{
         "name": "五级分类（本行）",
@@ -353,6 +327,9 @@
         "category": "二级"
       }, {
         "name": "巨额亏损",
+        "x": "1300",
+        "y": "350",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       }, {
@@ -373,6 +350,9 @@
         "category": "二级"
       }, {
         "name": "税务行业变更",
+        "x": "1450",
+        "y": "400",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },  {
@@ -392,14 +372,6 @@
         "symbolSize": 20,
         "category": "二级"
       },{
-        "name": "12",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": "6",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
         "name": "重大涉诉信息",
         "symbolSize": 20,
         "category": "二级"
@@ -415,11 +387,10 @@
         "symbolSize": 20,
         "category": "二级"
       },{
-        "name": "24",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
         "name": "法定代表人持股比例",
+        "x": "950",
+        "y": "180",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
@@ -533,7 +504,7 @@
       {
         "name": "量化行为",
         "x": "600",
-        "y": "520",
+        "y": "500",
         "fixed":true,
         "symbolSize": 30,
         "category": "一级菜单"
@@ -587,8 +558,8 @@
         "category": "二级"
       },{
         "name": "税务强",
-        "x": "1100",
-        "y": "500",
+        "x": "400",
+        "y": "310",
         "fixed":true,
         "symbolSize": 30,
         "category": "一级菜单"
@@ -598,6 +569,9 @@
         "category": "二级"
       },{
         "name": "借款主体稳定经营",
+        "x": "280",
+        "y": "210",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
@@ -605,23 +579,7 @@
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": " 12",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": " 6",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": "经营实体报税情况-增值税",
-        "symbolSize": 20,
-        "category": "二级"
-      },{
         "name": "最大累计",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": "12 ",
         "symbolSize": 10,
         "category": "三级及以下"
       },{
@@ -629,15 +587,10 @@
         "symbolSize": 20,
         "category": "二级"
       },{
-        "name": "6 ",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": "12  ",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
         "name": "严重违法违章",
+        "x": "290",
+        "y": "330",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
@@ -653,23 +606,14 @@
         "symbolSize": 10,
         "category": "三级及以下"
       },{
-        "name": " 12 ",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": "  12",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
-        "name": " 12  ",
-        "symbolSize": 10,
-        "category": "三级及以下"
-      },{
         "name": "当前无欠税行为",
         "symbolSize": 20,
         "category": "二级"
       },{
         "name": " 经营实体报税情况-增值税",
+        "x": "500",
+        "y": "210",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
@@ -686,6 +630,9 @@
         "category": "二级"
       },{
         "name": "利润限制",
+        "x": "300",
+        "y": "170",
+        "fixed":true,
         "symbolSize": 20,
         "category": "二级"
       },{
@@ -907,65 +854,41 @@
         "target": "本行欠息（个人）"
       }, {
         "source": "本行欠息（个人）",
-        "target": "当前逾期金额"
+        "target": "当前逾期金额180+"
       }, {
-        "source": "当前逾期金额",
-        "target": "0"
+        "source": "本行欠息（个人）",
+        "target": "当前逾期金额31-60"
       }, {
-        "source": "当前逾期金额",
-        "target": "180+"
+        "source": "本行欠息（个人）",
+        "target": "当前逾期金额61-90"
       }, {
-        "source": "当前逾期金额",
-        "target": "31"
+        "source": "本行欠息（个人）",
+        "target": "当前逾期金额91-180"
       }, {
-        "source": "当前逾期金额",
-        "target": "61"
+        "source": "本行欠息（个人）",
+        "target": "当前逾期金额0-30"
       }, {
-        "source": "当前逾期金额",
-        "target": "91"
-      }, {
-        "source": "30",
-        "target": "0"
-      }, {
-        "source": "31",
-        "target": "60"
-      }, {
-        "source": "61",
-        "target": "90"
-      }, {
-        "source": "91",
-        "target": "180"
+        "source": "本行欠息（个人）",
+        "target": "当前逾期金额91-180"
       }, {
         "source": "他行欠息（个人）",
-        "target": "当前逾期金额（他行）"
+        "target": "当前逾期金额（他行）180+"
       }, {
-        "source": "当前逾期金额（他行）",
-        "target": " 0"
+        "source": "他行欠息（个人）",
+        "target": "当前逾期金额（他行）61-90"
       }, {
-        "source": "当前逾期金额（他行）",
-        "target": " 180+"
+        "source": "他行欠息（个人）",
+        "target": "当前逾期金额（他行）0-30"
       }, {
-        "source": "当前逾期金额（他行）",
-        "target": " 31"
+        "source": "他行欠息（个人）",
+        "target": "当前逾期金额（他行）91-180"
       }, {
-        "source": "当前逾期金额（他行）",
-        "target": " 61"
+        "source": "他行欠息（个人）",
+        "target": "当前逾期金额（他行）31-60"
       }, {
-        "source": "当前逾期金额（他行）",
-        "target": " 91"
+        "source": "他行欠息（个人）",
+        "target": "当前逾期金额（他行）91-180"
       }, {
-        "source": " 30",
-        "target": " 0"
-      }, {
-        "source": " 31",
-        "target": " 60"
-      }, {
-        "source": " 61",
-        "target": " 90"
-      }, {
-        "source": " 91",
-        "target": " 180"
-      },{
         "source": "他行欠息（个人）",
         "target": "五级分类（个人）"
       }, {

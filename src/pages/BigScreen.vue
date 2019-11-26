@@ -2,13 +2,15 @@
   <div class="main">
     <img src="../../static/image/head.png" alt="" class="img"/>
     <div class="title">北京银行</div>
-    <div class="numDisplay" v-for="(item,index) in dataList">
-      <div class="items">
-        <span>{{represent[index]}}</span>
+    <div class="numDisplay">
+      <div class="items" v-for="(item,index) in dataList">
+        <div class="headSpan">{{represent[index]}}</div>
+        <img src="../../static/image/num_top.png" alt=""/>
         <div class="num">
           <div class="number">{{item}}</div>
-          <div>亿条</div>
+          <div class="unit">亿条</div>
         </div>
+        <img src="../../static/image/num_btm.png" alt=""/>
       </div>
     </div>
     <div id="myCharts" ref="myCharts" class="charts"></div>
@@ -139,13 +141,45 @@
   position: absolute;
   top: 1%;
 }
+.numDisplay{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.items{
+  display: flex;
+  flex-direction: column;
+}
+.num{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number{
+  color: #fff;
+  font-size: 35px;
+  font-weight:bold;
+}
+.unit{
+  color: #fff;
+  font-family:PingFang SC,serif;
+  font-size: 20px;
+  margin-left: 3%;
+}
+.headSpan{
+  color: rgb(0,190,216);
+  font-size: 20px;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
 @media screen and (min-width:1900px){
   .main{
     height: 1080px;
   }
   .charts{
     width: 90%;
-    height: 680px;
+    height: 690px;
     margin-top: 8%;
   }
   .img{
