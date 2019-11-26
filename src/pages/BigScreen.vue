@@ -1,6 +1,6 @@
 <template>
   <div class="main">
-    <img src="../../static/image/head.png" alt="" />
+    <img src="../../static/image/head.png" alt="" class="img"/>
     <div id="myCharts" ref="myCharts" class="charts"></div>
   </div>
 </template>
@@ -61,14 +61,15 @@
             type: 'graph',
             layout: 'force',
             force: {
-              repulsion: 250
+              repulsion: 200
             },
             data: this.data,
             links: this.links,
             categories: this.categories,
             focusNodeAdjacency: true,
-            roam: true, // 是否可拖拽和滑轮滚动
+            roam: false, // 是否可拖拽和滑轮滚动
             label: {
+              color:'#fff',
               normal: {
                 show: true,
                 position: 'top',
@@ -87,25 +88,41 @@
       }
     },
     mounted() {
-      this.getDataList();
+     this.getDataList();
     },
   }
 </script>
 
-<style scoped>
+<style>
+*{
+  margin:0;
+  padding:0;
+}
 .main{
   background-image: url("../../static/image/bg@2x.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 1080px;
+  background-size: 100% 100%;
+  height: 721px;
   width: 100%;
 }
 .charts{
   width: 80%;
-  height: 80%;
+  height: 600px;
   margin: 0 auto;
 }
-img{
-  width: 100%;
+.img{
+  width: inherit;
+}
+@media screen and (min-width:1900px){
+  .main{
+    height: 1080px;
+  }
+  .charts{
+    width: 90%;
+    height: 680px;
+    margin-top: 8%;
+  }
+  .img{
+  }
 }
 </style>

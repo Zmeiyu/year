@@ -5,390 +5,407 @@
         "name": "输入",
         "symbol": "image://../../static/image/center.png",
         "symbolSize": 150,
-        "x": "745",
-        "y": "550",
+        "x": "850",
+        "y": "400",
         "symbolKeepAspect": true,
         "fixed":true
       },{
         "name": "贷前",
-        "symbolSize": 20,
+        "symbolSize": 30,
+        "x": "500",
+        "y": "430",
+        "fixed":true,
         "category": "贷前"
       }, {
         "name": " AHP",
         "symbolSize": 20,
+        "x": "250",
+        "y": "450",
+        "fixed":true,
         "category": "贷前"
       }, {
         "name": " （上一年度）经济实体净利润",
-        "symbolSize": 20,
-        "category": " AHP"
+        "symbolSize": 10,
+        "category": "贷前"
       }, {
         "name": " （上一年度）净利润/上年度全部销售额",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 持股比例",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月缴纳滞纳金次数",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月纳税总额增长率（增值税+所得税）",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月企业缴税规模（增值税+所得税）",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月行为罚款次数",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月经营实体经营规模（全部销售额）",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月上游交易总额增长率",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月下游交易总额增长率",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近12个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近24个月零申报累计次数",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       }, {
         "name": " 近24个月零申报最大连续次数",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       },{
         "name": " 近6个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       },{
         "name": " 近3个月纳税逾期次数",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       },{
         "name": " 近3个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       },{
         "name": " 经营实体成立年限",
         "symbolSize": 10,
-        "category": " AHP"
+        "category": "贷前"
       },{
         "name": "贷后",
-        "symbolSize": 20,
+        "x": "600",
+        "y": "355",
+        "fixed":true,
+        "symbolSize": 30,
         "category": "贷后"
       }, {
         "name": "AHP",
+        "x": "400",
+        "y": "310",
+        "fixed":true,
         "symbolSize": 20,
         "category": "贷后"
       }, {
         "name": "近12个月缴纳滞纳金次数",
-        "symbolSize": 20,
-        "category": "AHP"
+        "symbolSize": 10,
+        "category": "贷后"
       }, {
         "name": "近12个月零申报累计次数",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近12个月零纳税（增值税）累计次数",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "（上一年度）净利润/全部销售收入",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近12个月上游交易总额增长率",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近12个月下游交易总额增长率",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近3个月纳税逾期次数",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近3个月销售额增长率（环比）",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近3个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近4-6个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近6个月经营规模增长率（动态）",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "近7-12个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "AHP"
+        "category": "贷后"
       }, {
         "name": "贷后预警规则",
-        "symbolSize": 10,
+        "x": "1150",
+        "y": "250",
+        "fixed":true,
+        "symbolSize": 30,
         "category": "贷后预警规则"
       }, {
         "name": "企业",
-        "symbolSize": 3,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "他行欠息",
-        "symbolSize": 3,
-        "category": "企业"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "五级分类（他行）",
-        "symbolSize": 3,
-        "category": "他行欠息"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "欠息余额（他行）",
-        "symbolSize": 3,
-        "category": "他行欠息"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "借据余额（他行）",
-        "symbolSize": 3,
-        "category": "他行欠息"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "本行欠息",
-        "symbolSize": 3,
-        "category": "企业"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "借据余额",
-        "symbolSize": 3,
-        "category": "本行欠息"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "欠息余额",
-        "symbolSize": 3,
-        "category": "本行欠息"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "五级分类",
-        "symbolSize": 3,
-        "category": "本行欠息"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "企业工商状态",
-        "symbolSize": 3,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "企业涉税违章",
-        "symbolSize": 40,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "企业税务状态",
-        "symbolSize": 3,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "涉税行为罚款",
-        "symbolSize": 7,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "失信被执行人（法人和股东）",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "被执行人（企业）",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "收入变动",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "个人",
-        "symbolSize": 30,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "他行欠息（个人）",
-        "symbolSize": 3,
-        "category": "个人"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "本行欠息（个人）",
-        "symbolSize": 3,
-        "category": "个人"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "当前逾期金额",
-        "symbolSize": 3,
-        "category": "本行欠息（个人）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "180+",
-        "symbolSize": 3,
-        "category": "当前逾期金额"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "31",
-        "symbolSize": 3,
-        "category": "当前逾期金额"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "60",
-        "symbolSize": 3,
-        "category": "31"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": "61",
-        "symbolSize": 3,
-        "category": "当前逾期金额"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "90",
-        "symbolSize": 3,
-        "category": "61"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": "91",
-        "symbolSize": 3,
-        "category": "当前逾期金额"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "180",
-        "symbolSize": 3,
-        "category": "91"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": "0",
-        "symbolSize": 3,
-        "category": "当前逾期金额"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": "30",
-        "symbolSize": 3,
-        "category": "0"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": "当前逾期金额（他行）",
-        "symbolSize": 3,
-        "category": "他行欠息（个人）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": " 180+",
-        "symbolSize": 3,
-        "category": "当前逾期金额（他行）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": " 31",
-        "symbolSize": 3,
-        "category": "当前逾期金额（他行）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": " 60",
-        "symbolSize": 3,
-        "category": "_31"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": " 61",
-        "symbolSize": 3,
-        "category": "当前逾期金额（他行）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": " 90",
-        "symbolSize": 3,
-        "category": " 61"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": " 91",
-        "symbolSize": 3,
-        "category": "当前逾期金额（他行）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": " 180",
-        "symbolSize": 3,
-        "category": " 91"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": " 0",
-        "symbolSize": 3,
-        "category": "当前逾期金额（他行）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": " 30",
-        "symbolSize": 3,
-        "category": " 0"
+        "symbolSize": 5,
+        "category": "贷后预警规则"
       },{
         "name": "五级分类（本行）",
-        "symbolSize": 3,
-        "category": "本行欠息（个人）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "五级分类（个人）",
-        "symbolSize": 3,
-        "category": "他行欠息（个人）"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "法定代表人变动",
-        "symbolSize": 30,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "法定代表人持股变动情况",
-        "symbolSize": 30,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "近12个月销售额为0的申报次数（小规模纳税人）",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "近12个月销售额为0的申报次数（一般纳税人）",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name":  "近6个月销售额为0的申报次数（小规模纳税人）",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name":  "近6个月销售额为0的申报次数（一般纳税人）",
-        "symbolSize": 18,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "巨额亏损",
-        "symbolSize": 25,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "亏损率",
-        "symbolSize": 25,
-        "category": "巨额亏损"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       }, {
         "name": "净利润",
-        "symbolSize": 25,
-        "category": "巨额亏损"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       }, {
         "name": "纳税人信用评级",
-        "symbolSize": 25,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "纳税状态",
-        "symbolSize": 5,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "税务行业变更",
-        "symbolSize": 30,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },  {
         "name": "行业变更次数",
-        "symbolSize": 30,
-        "category": "税务行业变更"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },  {
         "name": "行业大类变更",
-        "symbolSize": 30,
-        "category": "税务行业变更"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       }, {
         "name": "税银数据有效性",
-        "symbolSize": 30,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       }, {
         "name": "逾期未缴税款",
-        "symbolSize": 7,
+        "symbolSize": 20,
         "category": "贷后预警规则"
       },{
         "name": "12",
-        "symbolSize": 7,
-        "category": "逾期未缴税款"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "6",
-        "symbolSize": 7,
-        "category": "逾期未缴税款"
+        "symbolSize": 10,
+        "category": "贷后预警规则"
       },{
         "name": "重大涉诉信息",
-        "symbolSize": 30,
-        "category": "贷后预警规则"
-      },
-      {
-        "name": "工商司法",
         "symbolSize": 20,
+        "category": "贷后预警规则"
+      }, {
+        "name": "工商司法",
+        "x": "850",
+        "y": "250",
+        "fixed":true,
+        "symbolSize": 30,
         "category": "工商司法"
       },{
         "name": "法定代表人变更次数",
@@ -396,16 +413,16 @@
         "category": "工商司法"
       },{
         "name": "24",
-        "symbolSize": 20,
-        "category": "法定代表人变更次数"
+        "symbolSize": 10,
+        "category": "工商司法"
       },{
         "name": "法定代表人持股比例",
         "symbolSize": 20,
         "category": "工商司法"
       },{
         "name": "持股比例",
-        "symbolSize": 20,
-        "category": "法定代表人持股比例"
+        "symbolSize": 10,
+        "category": "工商司法"
       },{
         "name": "民商事裁判文书中作为被告或被执行人",
         "symbolSize": 20,
@@ -440,8 +457,11 @@
         "category": "工商司法"
       },{
         "name": "行内限制行业规则",
-        "symbolSize": 20,
-        "category": "输入"
+        "x": "850",
+        "y": "550",
+        "fixed":true,
+        "symbolSize": 30,
+        "category": "行内限制行业规则"
       },{
         "name": "北京银行禁止行业",
         "symbolSize": 20,
@@ -449,7 +469,10 @@
       },
       {
         "name": "量化申请",
-        "symbolSize": 20,
+        "x": "650",
+        "y": "250",
+        "fixed":true,
+        "symbolSize": 30,
         "category": "量化申请"
       },{
         "name": "管理费用/营业收入",
@@ -506,7 +529,10 @@
       },
       {
         "name": "量化行为",
-        "symbolSize": 20,
+        "x": "600",
+        "y": "520",
+        "fixed":true,
+        "symbolSize": 30,
         "category": "量化行为"
       },{
         "name": "累计折旧/所有者权利",
@@ -556,6 +582,149 @@
         "name": "近6个月征收企业所得税年化增长率（动态）",
         "symbolSize": 20,
         "category": "量化行为"
+      },{
+        "name": "税务强",
+        "x": "1050",
+        "y": "450",
+        "fixed":true,
+        "symbolSize": 30,
+        "category": "税务强"
+      },{
+        "name": "法定代表人",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "借款主体稳定经营",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "贷前增长率",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": " 12",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": " 6",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "经营实体报税情况-增值税",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "最大累计",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "12 ",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "逾期次数",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "6 ",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "12  ",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "严重违法违章",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "罚款次数",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "涉税违法违章次数",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "违法违章次数",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": " 12 ",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "  12",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": " 12  ",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "当前无欠税行为",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": " 经营实体报税情况-增值税",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "经营实体近期经营情况",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "经营实体经营规模",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "经营实体资产负债率限制",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "利润限制",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "净利润（亏损）",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": " 亏损率",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "年报缺失数",
+        "symbolSize": 10,
+        "category": "税务强"
+      },{
+        "name": "纳税信用评级",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": " 纳税状态",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "企业缴税规模",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "企业经营年限",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "企业经营期限",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": " 税银数据有效性",
+        "symbolSize": 20,
+        "category": "税务强"
+      },{
+        "name": "行业变更",
+        "symbolSize": 20,
+        "category": "税务强"
       }
     ],
     "links": [
@@ -894,8 +1063,8 @@
         "source": "工商司法",
         "target": "罪犯及嫌疑人名单表"
       },{
-      "source": "输入",
-      "target": "量化申请"
+        "source": "输入",
+        "target": "量化申请"
       },{
         "source": "量化申请",
         "target": "管理费用/营业收入"
@@ -977,6 +1146,114 @@
       },{
         "source": "量化行为",
         "target": "行业*毛利率"
+      },{
+        "source": "输入",
+        "target": "税务强"
+      },{
+        "source": "税务强",
+        "target": "法定代表人"
+      },{
+        "source": "税务强",
+        "target": "借款主体稳定经营"
+      },{
+        "source": "借款主体稳定经营",
+        "target": "贷前增长率"
+      },{
+        "source": "贷前增长率",
+        "target": " 6"
+      },{
+        "source": "贷前增长率",
+        "target": " 12"
+      },{
+        "source": "税务强",
+        "target": " 经营实体报税情况-增值税"
+      },{
+        "source": " 经营实体报税情况-增值税",
+        "target": "最大累计"
+      },{
+        "source": "最大累计",
+        "target": "12 "
+      },{
+        "source": "税务强",
+        "target": "逾期次数"
+      },{
+        "source": "逾期次数",
+        "target": "6 "
+      },{
+        "source": "逾期次数",
+        "target": "12  "
+      },{
+        "source": "税务强",
+        "target": "严重违法违章"
+      },{
+        "source": "严重违法违章",
+        "target": "罚款次数"
+      },{
+        "source": "严重违法违章",
+        "target": "涉税违法违章次数"
+      },{
+        "source": "严重违法违章",
+        "target": "违法违章次数"
+      },{
+        "source": "罚款次数",
+        "target": " 12 "
+      },{
+        "source": "涉税违法违章次数",
+        "target": "  12"
+      },{
+        "source": "违法违章次数",
+        "target": " 12  "
+      },{
+        "source": "税务强",
+        "target": "当前无欠税行为"
+      },{
+        "source": "税务强",
+        "target": "经营实体报税情况-增值税"
+      },{
+        "source": "税务强",
+        "target": "经营实体近期经营情况"
+      },{
+        "source": "税务强",
+        "target": "经营实体经营规模"
+      },{
+        "source": "税务强",
+        "target": "经营实体自查负债率限制"
+      },{
+        "source": "税务强",
+        "target": "利润限制"
+      },{
+        "source": "利润限制",
+        "target": "净利润（亏损）"
+      },{
+        "source": "利润限制",
+        "target": " 亏损率"
+      },{
+        "source": "利润限制",
+        "target": "年报缺失数"
+      },{
+        "source": "税务强",
+        "target": "纳税信用评级"
+      },{
+        "source": "税务强",
+        "target": " 纳税状态"
+      },{
+        "source": "税务强",
+        "target": "企业缴税规模"
+      },{
+        "source": "税务强",
+        "target": "企业经营年限"
+      },{
+        "source": "税务强",
+        "target": "企业经营期限"
+      },{
+        "source": "税务强",
+        "target": " 税银数据有效性"
+      },{
+        "source": "税务强",
+        "target": "行业变更"
+      },{
+        "source": "税务强",
+        "target": "经营实体资产负债率限制"
       }
     ],
     "categories": [
@@ -988,11 +1265,7 @@
         "name": "量化申请"
       },  {
         "name": "量化行为"
-      }, {
-        "name": "法定代表人变更次数"
-      }, {
-        "name": "法定代表人持股比例"
-      }, {
+      },  {
         "name": "行内限制行业规则"
       }, {
         "name": "贷后"
@@ -1000,68 +1273,6 @@
         "name": "贷前"
       }, {
         "name": "税务强"
-      }, {
-        "name": "量化申请"
-      }, {
-        "name": "量化行为"
-      }, {
-        "name": "企业"
-      }, {
-        "name": "他行欠息"
-      }, {
-        "name": "法定代表人变更次数"
-      }, {
-        "name": "法定代表人持股比例"
-      },{
-        "name": "AHP"
-      },{
-        "name": " AHP"
-      },{
-        "name": "个人"
-      },{
-        "name": "当前逾期余额"
-      },{
-        "name": "本行欠息"
-      },{
-        "name": "他行欠息"
-      },{
-        "name": "严重违法违章"
-      },{
-        "name": "罚款次数"
-      },{
-        "name": "涉税违法违章次数"
-      },{
-        "name": "违法违章次数"
-      },{
-        "name": "逾期次数"
-      },{
-        "name": "利润限制"
-      },{
-        "name": "企业缴税规模"
-      },{
-        "name": "本行欠息（个人）"
-      },{
-        "name": "他行欠息（个人）"
-      },{
-        "name": "当前逾期金额"
-      },{
-        "name": "当前逾期金额（他行）"
-      },{
-        "name": "0"
-      },{
-        "name": "31"
-      },{
-        "name": "61"
-      },{
-        "name": "91"
-      },{
-        "name": " 0"
-      },{
-        "name": " 31"
-      },{
-        "name": " 61"
-      },{
-        "name": " 91"
       }]
   }
 }
