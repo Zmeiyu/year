@@ -1,6 +1,16 @@
 <template>
   <div class="main">
     <img src="../../static/image/head.png" alt="" class="img"/>
+    <div class="title">北京银行</div>
+    <div class="numDisplay" v-for="(item,index) in dataList">
+      <div class="items">
+        <span>{{represent[index]}}</span>
+        <div class="num">
+          <div class="number">{{item}}</div>
+          <div>亿条</div>
+        </div>
+      </div>
+    </div>
     <div id="myCharts" ref="myCharts" class="charts"></div>
   </div>
 </template>
@@ -12,7 +22,9 @@
       return{
         data:[],
         links:[],
-        categories:[]
+        categories:[],
+        dataList:['33,225,860,964','880,225,860,964'],
+        represent:['北京银行全量客户数','标签总数量']
       }
     },
     methods:{
@@ -77,8 +89,9 @@
             },
             lineStyle: {
               normal: {
-                color: 'source',
+                color: 'rgb(66,64,86)',
                 curveness: 0,
+                width:2,
                 type: "solid"
               }
             }
@@ -112,6 +125,19 @@
 }
 .img{
   width: inherit;
+}
+.title{
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-family: PingFang SC,serif;
+  font-weight: bold;
+  color: rgba(255,255,255,1);
+  background: linear-gradient(180deg,rgba(80,184,252,0.37) 0%, rgba(255,255,255,0.92) 56.2255859375%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 1%;
 }
 @media screen and (min-width:1900px){
   .main{

@@ -8,464 +8,467 @@
         "x": "850",
         "y": "400",
         "symbolKeepAspect": true,
-        "fixed":true
+        "fixed":true,
+        "label": {
+          "show": false
+        }
       },{
         "name": "贷前",
         "symbolSize": 30,
         "x": "500",
         "y": "430",
         "fixed":true,
-        "category": "贷前"
+        "category": "一级菜单"
       }, {
         "name": " AHP",
         "symbolSize": 20,
         "x": "250",
         "y": "450",
         "fixed":true,
-        "category": "贷前"
+        "category": "二级"
       }, {
         "name": " （上一年度）经济实体净利润",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " （上一年度）净利润/上年度全部销售额",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 持股比例",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月缴纳滞纳金次数",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月纳税总额增长率（增值税+所得税）",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月企业缴税规模（增值税+所得税）",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月行为罚款次数",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月经营实体经营规模（全部销售额）",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月上游交易总额增长率",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月下游交易总额增长率",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近12个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近24个月零申报累计次数",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       }, {
         "name": " 近24个月零申报最大连续次数",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       },{
         "name": " 近6个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       },{
         "name": " 近3个月纳税逾期次数",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       },{
         "name": " 近3个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       },{
         "name": " 经营实体成立年限",
         "symbolSize": 10,
-        "category": "贷前"
+        "category": "三级及以下"
       },{
         "name": "贷后",
         "x": "600",
         "y": "355",
         "fixed":true,
         "symbolSize": 30,
-        "category": "贷后"
+        "category": "一级菜单"
       }, {
         "name": "AHP",
         "x": "400",
         "y": "310",
         "fixed":true,
         "symbolSize": 20,
-        "category": "贷后"
+        "category": "二级"
       }, {
         "name": "近12个月缴纳滞纳金次数",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近12个月零申报累计次数",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近12个月零纳税（增值税）累计次数",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "（上一年度）净利润/全部销售收入",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近12个月上游交易总额增长率",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近12个月下游交易总额增长率",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近3个月纳税逾期次数",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近3个月销售额增长率（环比）",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近3个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近4-6个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近6个月经营规模增长率（动态）",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "近7-12个月销售额增长率（同比）",
         "symbolSize": 10,
-        "category": "贷后"
+        "category": "三级及以下"
       }, {
         "name": "贷后预警规则",
-        "x": "1150",
-        "y": "250",
+        "x": "1100",
+        "y": "325",
         "fixed":true,
         "symbolSize": 30,
-        "category": "贷后预警规则"
+        "category": "一级菜单"
       }, {
         "name": "企业",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "他行欠息",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "五级分类（他行）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "欠息余额（他行）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "借据余额（他行）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "本行欠息",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "借据余额",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "欠息余额",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "五级分类",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "企业工商状态",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "企业涉税违章",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "企业税务状态",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "涉税行为罚款",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "失信被执行人（法人和股东）",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "被执行人（企业）",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "收入变动",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "个人",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "他行欠息（个人）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "本行欠息（个人）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "当前逾期金额",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "180+",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "31",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "60",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "61",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "90",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "91",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "180",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "0",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "30",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "当前逾期金额（他行）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 180+",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 31",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 60",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 61",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 90",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 91",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 180",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 0",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": " 30",
         "symbolSize": 5,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "五级分类（本行）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "五级分类（个人）",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "法定代表人变动",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "法定代表人持股变动情况",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "近12个月销售额为0的申报次数（小规模纳税人）",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "近12个月销售额为0的申报次数（一般纳税人）",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name":  "近6个月销售额为0的申报次数（小规模纳税人）",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name":  "近6个月销售额为0的申报次数（一般纳税人）",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "巨额亏损",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "亏损率",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       }, {
         "name": "净利润",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       }, {
         "name": "纳税人信用评级",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "纳税状态",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "税务行业变更",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },  {
         "name": "行业变更次数",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },  {
         "name": "行业大类变更",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       }, {
         "name": "税银数据有效性",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "逾期未缴税款",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       },{
         "name": "12",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "6",
         "symbolSize": 10,
-        "category": "贷后预警规则"
+        "category": "三级及以下"
       },{
         "name": "重大涉诉信息",
         "symbolSize": 20,
-        "category": "贷后预警规则"
+        "category": "二级"
       }, {
         "name": "工商司法",
         "x": "850",
         "y": "250",
         "fixed":true,
         "symbolSize": 30,
-        "category": "工商司法"
+        "category": "一级菜单"
       },{
         "name": "法定代表人变更次数",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "24",
         "symbolSize": 10,
-        "category": "工商司法"
+        "category": "三级及以下"
       },{
         "name": "法定代表人持股比例",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "持股比例",
         "symbolSize": 10,
-        "category": "工商司法"
+        "category": "三级及以下"
       },{
         "name": "民商事裁判文书中作为被告或被执行人",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "民商事审判流程中作为被告或被执行人",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "失信人",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "被执行人",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "限制出入境名单",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "限制高消费名单",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "营业状态",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "罪犯及嫌疑人名单表",
         "symbolSize": 20,
-        "category": "工商司法"
+        "category": "二级"
       },{
         "name": "行内限制行业规则",
         "x": "850",
         "y": "550",
         "fixed":true,
         "symbolSize": 30,
-        "category": "行内限制行业规则"
+        "category": "一级菜单"
       },{
         "name": "北京银行禁止行业",
         "symbolSize": 20,
-        "category": "行内限制行业规则"
+        "category": "二级"
       },
       {
         "name": "量化申请",
@@ -473,59 +476,59 @@
         "y": "250",
         "fixed":true,
         "symbolSize": 30,
-        "category": "量化申请"
+        "category": "一级菜单"
       },{
         "name": "管理费用/营业收入",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "销售额近12个月变异系数",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "最近三期申报为0的次数",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "下游个数改变",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "当前年上游前8大供应商采购额占比",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "法人年龄",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "近12个月纳税额增长率",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "近12个月违法违章次数",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "近12个月滞纳金次数",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "近3个月销售收入增长率",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "流动比率",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "流动负债合计/营业收入",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },{
         "name": "管理费用/资产合计",
         "symbolSize": 20,
-        "category": "量化申请"
+        "category": "二级"
       },
       {
         "name": "量化行为",
@@ -533,198 +536,198 @@
         "y": "520",
         "fixed":true,
         "symbolSize": 30,
-        "category": "量化行为"
+        "category": "一级菜单"
       },{
         "name": "累计折旧/所有者权利",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "上游前10大供应商重合个数",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": " 下游个数改变",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "下游前10大客户重合个数",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "销售额近3个月变异系数",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "行业*毛利率",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "近6月滞纳金次数",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "净利润/所有者权益",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "当前年上游前6大供应商采购额占比",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "近3个月纳税额增长率（所得税）",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "近3个月全部销售额年化增长率（动态）",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "近6个月征收企业所得税年化增长率（动态）",
         "symbolSize": 20,
-        "category": "量化行为"
+        "category": "二级"
       },{
         "name": "税务强",
-        "x": "1050",
-        "y": "450",
+        "x": "1100",
+        "y": "500",
         "fixed":true,
         "symbolSize": 30,
-        "category": "税务强"
+        "category": "一级菜单"
       },{
         "name": "法定代表人",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "借款主体稳定经营",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "贷前增长率",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": " 12",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": " 6",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "经营实体报税情况-增值税",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "最大累计",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "12 ",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "逾期次数",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "6 ",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "12  ",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "严重违法违章",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "罚款次数",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "涉税违法违章次数",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "违法违章次数",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": " 12 ",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "  12",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": " 12  ",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "当前无欠税行为",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": " 经营实体报税情况-增值税",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "经营实体近期经营情况",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "经营实体经营规模",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "经营实体资产负债率限制",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "利润限制",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "净利润（亏损）",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": " 亏损率",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "年报缺失数",
         "symbolSize": 10,
-        "category": "税务强"
+        "category": "三级及以下"
       },{
         "name": "纳税信用评级",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": " 纳税状态",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "企业缴税规模",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "企业经营年限",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "企业经营期限",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": " 税银数据有效性",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       },{
         "name": "行业变更",
         "symbolSize": 20,
-        "category": "税务强"
+        "category": "二级"
       }
     ],
     "links": [
@@ -1258,21 +1261,26 @@
     ],
     "categories": [
       {
-        "name": "贷后预警规则"
-      }, {
-        "name": "工商司法"
-      },  {
-        "name": "量化申请"
-      },  {
-        "name": "量化行为"
-      },  {
-        "name": "行内限制行业规则"
-      }, {
-        "name": "贷后"
-      }, {
-        "name": "贷前"
-      }, {
-        "name": "税务强"
+        "name": "三级及以下",
+        "itemStyle":{
+          "normal":{
+            "color":"rgb(210,255,235)"
+          }
+        }
+      },{
+        "name": "二级",
+        "itemStyle":{
+          "normal":{
+            "color":"rgb(1,240,247)"
+          }
+        }
+      },{
+        "name": "一级菜单",
+        "itemStyle":{
+          "normal":{
+            "color":"#D2D8E1"
+          }
+        }
       }]
   }
 }
