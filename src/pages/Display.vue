@@ -53,6 +53,7 @@ export default {
         .get("./../../static/json/fake-nebula.bin",{responseType:'arraybuffer'})
         .then(res => {
           console.log(res);
+          console.info(res.data);
           this.pointData = new Float32Array(res.data);
         })
         .catch(err => {
