@@ -28,11 +28,6 @@ export default {
     this.getRowData();
     this.pointerEcharts();
 
-    (function() {
-      var w = window.innerWidth;
-      var h = window.innerHeight;
-      document.querySelector(".box").style.backgroundSize = `${w}px ${h}px`;
-    })();
   },
   methods: {
     getDataList() {
@@ -232,7 +227,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 * {
   margin: 0;
   padding: 0;
