@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <img src="../../static/image/head.png" alt="" class="img"/>
-    <div class="title">北京银行</div>
+    <div class="title_">北京银行</div>
     <div class="numDisplay">
       <div class="items" v-for="(item,index) in dataList">
         <div class="headSpan">{{represent[index]}}</div>
@@ -128,7 +128,7 @@
 .img{
   width: inherit;
 }
-.title{
+.title_{
   width: 100%;
   text-align: center;
   font-size: 35px;
