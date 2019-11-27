@@ -27,11 +27,6 @@ export default {
     this.getDataList();
     this.getRowData();
     this.pointerEcharts()
-    (function() {
-      var w = window.innerWidth;
-      var h = window.innerHeight;
-      document.querySelector(".box").style.backgroundSize = `${w}px ${h}px`;
-    })();
   },
   methods: {
     getDataList() {
@@ -231,7 +226,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 * {
   margin: 0;
   padding: 0;
@@ -240,6 +235,7 @@ export default {
   width: 100%;
   height: 100%;
   background: url("./../../static/image/bg@2x.png") no-repeat;
+  background-size: cover;
 }
 .text_one {
   display: inline-block;
@@ -257,7 +253,7 @@ export default {
 .text_two {
   display: inline-block;
   position: absolute;
-  top: 110px;
+  top: 130px;
   left: 1200px;
   width: 80px;
   height: 38px;
@@ -269,7 +265,7 @@ export default {
 }
 #myCharts {
   width: 1314px;
-  height: 853px;
+  height: 942px;
   position: relative;
   top: -55px;
   left: 10px;
@@ -286,7 +282,7 @@ export default {
   color: rgba(255, 255, 255, 1);
   text-shadow: 0px 2px 3px rgba(6, 56, 156, 1);
   position: absolute;
-  top: 3%;
+  top: 4%;
   left: 50%;
   transform: translate(-60%, -50%);
 }
@@ -294,7 +290,7 @@ export default {
   width: 689px;
   height: 527px;
   position: absolute;
-  top: 217px;
+  top: 293px;
   left: 1141px;
   background: url("./../../static/image/redult_show.png") no-repeat;
 }
