@@ -20,7 +20,8 @@ export default {
     return {
       data: [],
       link: [],
-      pointData:[]
+      pointData:[],
+      moveData:[],
     };
   },
   mounted() {
@@ -36,6 +37,7 @@ export default {
           console.log(res);
           this.data = res.data.dataList.data;
           this.link = res.data.dataList.links;
+          this.handleData(res.data.dataList.links,res.data.dataList.data);
           this.caretEcharts();
         })
         .catch(err => {
@@ -58,7 +60,7 @@ export default {
       const myCharts = this.$echarts.init(this.$refs.myCharts);
       myCharts.hideLoading();
       let option = {
-        series: {
+        series: [{
           type: "graph",
           layout: "none",
           symbolSize: 30, //图形的大小（示例中的圆的大小）
@@ -110,7 +112,21 @@ export default {
               type: "solid" //实线
             }
           }
-        }
+        },
+        // {
+        //   name: 'A',
+        //   type: 'lines',
+        //   coordinateSystem: 'cartesian2d',
+        //   effect: {
+        //     show: true,
+        //     trailLength: 0,
+        //     symbol: 'arrow',
+        //     color: '#00FFFF',
+        //     symbolSize: 8
+        //   },
+        //   data: this.moveData
+        // }
+        ]
       };
       myCharts.setOption(option);
     },
@@ -214,7 +230,35 @@ export default {
       }]
     };
     myChart.setOption(option);
-    }
+    },
+    handleData(links,data){
+      let changeLink = new Array(links.length);
+      changeLink.fill([]);
+      console.info(changeLink);
+      changeLink = links.map((item)=> {
+        let sourceVal = [];
+        let targetVal = [];
+        data.forEach(itm => {
+          if (item.source === itm.id) {
+            sourceVal.push(itm.x);
+            sourceVal.push(itm.y)
+          }
+          if (item.target === itm.id) {
+            targetVal.push(itm.x);
+            targetVal.push(itm.y)
+          }
+        });
+        let fin = [];
+        fin = [{
+          coord: sourceVal
+        }, {
+          coord: targetVal
+        }];
+        return fin
+      });
+      this.moveData = changeLink;
+      console.info(changeLink)
+    },
   },
   watch :{
     pointData:{

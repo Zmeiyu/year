@@ -70,7 +70,7 @@
           },// 工具盒
           animationDuration: 3000,
           animationEasingUpdate: 'quinticInOut',
-          series: [{
+          series: {
             name: '北京银行',
             type: 'graph',
             layout: 'force',
@@ -97,7 +97,7 @@
                 type: "solid"
               }
             }
-          }]
+          }
         };
         myCharts.setOption(options);
       }
@@ -108,7 +108,7 @@
   }
 </script>
 
-<style scoped>
+<style>
 *{
   margin:0;
   padding:0;
