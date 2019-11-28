@@ -49,7 +49,6 @@ export default {
         .get("./../../static/json/fake-nebula.bin",{responseType:'arraybuffer'})
         .then(res => {
           console.log(res);
-          console.info(res.data);
           this.pointData = new Float32Array(res.data);
         })
         .catch(err => {
@@ -234,7 +233,6 @@ export default {
     handleData(links,data){
       let changeLink = new Array(links.length);
       changeLink.fill([]);
-      console.info(changeLink);
       changeLink = links.map((item)=> {
         let sourceVal = [];
         let targetVal = [];
@@ -257,7 +255,6 @@ export default {
         return fin
       });
       this.moveData = changeLink;
-      console.info(changeLink)
     },
   },
   watch :{

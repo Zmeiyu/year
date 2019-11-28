@@ -14,6 +14,7 @@
       </div>
     </div>
     <div id="myCharts" ref="myCharts" class="charts"></div>
+    <div class="jump" @click="pageLink">NEXT</div>
   </div>
 </template>
 
@@ -100,6 +101,9 @@
           }
         };
         myCharts.setOption(options);
+      },
+      pageLink(){
+        this.$router.push({name:'Display'})
       }
     },
     mounted() {
@@ -172,6 +176,15 @@
   font-size: 20px;
   margin-bottom: 1%;
   margin-left: 2%;
+}
+.jump{
+  position: absolute;
+  color: rgb(0,79,249);
+  bottom: 15%;
+  right: 5%;
+}
+.jump:hover{
+  cursor: pointer;
 }
 @media screen and (min-width:1900px){
   .main{
