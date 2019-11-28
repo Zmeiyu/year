@@ -10,6 +10,7 @@
     <div class="right">
       <div id="myChart" ref="myChart"></div>
     </div>
+    <div class="jump" @click="pageLink">NEXT</div>
   </div>
 </template>
 
@@ -230,6 +231,9 @@ export default {
     };
     myChart.setOption(option);
     },
+    pageLink(){
+      this.$router.push({name:'WorkResult'})
+    },
     handleData(links,data){
       let changeLink = new Array(links.length);
       changeLink.fill([]);
@@ -342,5 +346,14 @@ export default {
   margin-top: 34px;
   position: absolute;
   z-index: 999
+}
+.jump{
+  position: absolute;
+  color: rgb(0,79,249);
+  bottom: 17%;
+  right: 7%;
+}
+.jump:hover{
+  cursor: pointer;
 }
 </style>
